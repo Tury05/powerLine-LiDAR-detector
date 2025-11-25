@@ -85,6 +85,16 @@ python src/ground_seg.py -g <input>
 ./rust_module/target/release/metrics <processed_tiles_folder> <ground_truth_tiles_folder> <original_tiles_folder>
 ```
 
+## 📊 Visualizations
+
+Comparison between the original LiDAR scan and the detected lines (scanned in Luxembourg):
+
+![Original Scan](<img width="1026" height="641" alt="original" src="https://github.com/user-attachments/assets/f4bf3fc0-06b8-45a4-9dc5-f15efe3eef89" />)
+*Original LiDAR scan.*
+
+![Detected Lines](<img width="1075" height="675" alt="result" src="https://github.com/user-attachments/assets/3cad7dee-4089-4c2c-b787-75fd0413fd96" />)
+*Lines detected by the LiDAR line detector.*
+
 ## ✅ Notes
 
 - Always activate the Conda environment before running Python scripts or Rust binaries.
