@@ -87,13 +87,13 @@ python src/ground_seg.py -g <input>
 
 ## 📊 Visualizations
 
-Comparison between the original LiDAR scan and the detected lines (scanned in Luxembourg):
-
-![Original Scan](<img width="1026" height="641" alt="original" src="https://github.com/user-attachments/assets/f4bf3fc0-06b8-45a4-9dc5-f15efe3eef89" />)
-*Original LiDAR scan.*
-
-![Detected Lines](<img width="1075" height="675" alt="result" src="https://github.com/user-attachments/assets/3cad7dee-4089-4c2c-b787-75fd0413fd96" />)
-*Lines detected by the LiDAR line detector.*
+Comparison between the original LiDAR scan and the detected lines after execution (scanned in Luxembourg):
+<table border="0">
+  <tr>
+    <td><img src="images/original.png" alt="Original Scan" width="500"><br>Original LiDAR scan</td>
+    <td><img src="images/result.png" alt="Detected Lines" width="500"><br>Lines detected by the LiDAR line detector</td>
+  </tr>
+</table>
 
 ## ✅ Notes
 
